@@ -2,18 +2,46 @@
   "title": "Genome-resolved metagenomic dataset of Korean agricultural soils exposed to PLA–PBAT biodegradable mulch film: plastizyme screen of field MAGs",
   "description": "Scripts, reference sequences and results of the plastizyme screen (putative PLA- and PBAT-degrading enzymes) of metagenome-assembled genomes from two South Korean agricultural soils with contrasting biodegradable mulch film (BMF) histories (Yeoju, no BMF use; Jeonju, multi-year BMF use). Accompanies the Scientific Data Data Descriptor of the same title.",
   "upload_type": "software",
-  "license": "MIT",
-  "keywords": ["metagenomics", "metagenome-assembled genomes", "biodegradable mulch film", "PLA", "PBAT", "plastic-degrading enzymes", "soil microbiome", "South Korea"],
-  "creators": [
-    {"name": "Prabhaharan, Darsha", "affiliation": "Clean-Energy Research Institute, Hanyang University, Seoul, Republic of Korea"},
-    {"name": "Lee, YouLim", "affiliation": "Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"},
-    {"name": "Yoon, Gyeongseok", "affiliation": "Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"},
-    {"name": "Chung, Joon-hui", "affiliation": "Agricultural Microbiology Division, National Institute of Agricultural Sciences, Rural Development Administration, Wanju, Republic of Korea"},
-    {"name": "Ahn, Jae-Hyung", "affiliation": "Agricultural Microbiology Division, National Institute of Agricultural Sciences, Rural Development Administration, Wanju, Republic of Korea"},
-    {"name": "Park, Hyojung", "affiliation": "Clean-Energy Research Institute, Hanyang University, Seoul, Republic of Korea"},
-    {"name": "Sang, Byoung-In", "affiliation": "Clean-Energy Research Institute and Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"}
+  "license": "mit",
+  "keywords": [
+    "metagenomics",
+    "metagenome-assembled genomes",
+    "biodegradable mulch film",
+    "PLA",
+    "PBAT",
+    "plastic-degrading enzymes",
+    "soil microbiome",
+    "South Korea"
   ],
-  "related_identifiers": [
-    {"identifier": "PRJNA1134933", "relation": "isSupplementTo", "scheme": "other"}
-  ]
+  "creators": [
+    {
+      "name": "Prabhaharan, Darsha",
+      "affiliation": "Clean-Energy Research Institute, Hanyang University, Seoul, Republic of Korea"
+    },
+    {
+      "name": "Lee, YouLim",
+      "affiliation": "Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"
+    },
+    {
+      "name": "Yoon, Gyeongseok",
+      "affiliation": "Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"
+    },
+    {
+      "name": "Chung, Joon-hui",
+      "affiliation": "Agricultural Microbiology Division, National Institute of Agricultural Sciences, Rural Development Administration, Wanju, Republic of Korea"
+    },
+    {
+      "name": "Ahn, Jae-Hyung",
+      "affiliation": "Agricultural Microbiology Division, National Institute of Agricultural Sciences, Rural Development Administration, Wanju, Republic of Korea"
+    },
+    {
+      "name": "Park, Hyojung",
+      "affiliation": "Clean-Energy Research Institute, Hanyang University, Seoul, Republic of Korea"
+    },
+    {
+      "name": "Sang, Byoung-In",
+      "affiliation": "Clean-Energy Research Institute and Department of Chemical Engineering, Hanyang University, Seoul, Republic of Korea"
+    }
+  ],
+  "notes": "Raw reads and assemblies: NCBI BioProject PRJNA1134933."
 }
