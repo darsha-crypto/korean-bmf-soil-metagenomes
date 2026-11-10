@@ -1,0 +1,3 @@
+PBAT merged: 38
+PBAT >=100 aa: 38
+PBAT after CD-HIT 95%: 27

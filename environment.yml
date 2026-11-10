@@ -1,0 +1,9 @@
+name: bmf-plastizyme
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.9
+  - prodigal=2.6.3
+  - diamond=2.1.10
+  - cd-hit=4.8.1

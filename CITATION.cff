@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these tables, please cite the Data Descriptor."
+title: "Genome-resolved metagenomic dataset of Korean agricultural soils exposed to PLA–PBAT biodegradable mulch film"
+authors:
+  - family-names: Prabhaharan
+    given-names: Darsha
+  - family-names: Lee
+    given-names: YouLim
+  - family-names: Yoon
+    given-names: Gyeongseok
+  - family-names: Chung
+    given-names: Joon-hui
+  - family-names: Ahn
+    given-names: Jae-Hyung
+  - family-names: Park
+    given-names: Hyojung
+  - family-names: Sang
+    given-names: Byoung-In
+repository-code: "https://github.com/darsha-crypto/korean-bmf-soil-metagenomes"
+license: MIT

@@ -1,0 +1,3 @@
+PLA merged: 69
+PLA >=100 aa: 69
+PLA after CD-HIT 95%: 46
