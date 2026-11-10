@@ -1,5 +1,7 @@
 # Genome-resolved metagenomic dataset of Korean agricultural soils exposed to PLA–PBAT biodegradable mulch film
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24101526.svg)](https://doi.org/10.5281/zenodo.24101526)
+
 Analysis code and derived tables accompanying the Data Descriptor:
 
 > Prabhaharan D., Lee Y., Yoon G., Chung J., Ahn J.-H., Park H. & Sang B.-I.
@@ -94,7 +96,7 @@ non-default parameters are given in the manuscript Methods.
 
 ## Citation
 
-Please cite the Data Descriptor (see `CITATION.cff`) and the reference databases used:
+Please cite the Data Descriptor and this archived code (Zenodo, https://doi.org/10.5281/zenodo.24101526; see `CITATION.cff`) and the reference databases used:
 PAZy (Buchholz et al., *Proteins* 2022) and PlasticDB (Gambarini et al., *Database* 2022).
 
 ## License
