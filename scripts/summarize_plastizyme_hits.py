@@ -80,7 +80,7 @@ def main(bins_root, screen_out, results):
                     w.writerow([sample, mag, gene, db, ref, f"{pid:.1f}", ev, f"{bits:.0f}", qcov,
                                 ref_desc.get(ref, "")])
 
-    # Per-MAG table (Table S5)
+    # Per-MAG table (Table S2)
     per_mag = defaultdict(lambda: {db: set() for db in DBS})
     for (gene, db) in best:
         per_mag["__".join(gene.split("__")[:2])][db].add(gene)
@@ -88,7 +88,7 @@ def main(bins_root, screen_out, results):
     for mag_id, (sample, mag, bp, n_genes) in sorted(mags.items()):
         pla, pbat = per_mag[mag_id]["PLA"], per_mag[mag_id]["PBAT"]
         mag_rows.append([sample, mag, round(bp / 1e6, 2), n_genes, len(pla), len(pbat), len(pla | pbat)])
-    with open(os.path.join(results, "TableS5_plastizyme_per_MAG.tsv"), "w", newline="") as out:
+    with open(os.path.join(results, "TableS2_plastizyme_per_MAG.tsv"), "w", newline="") as out:
         w = csv.writer(out, delimiter="\t")
         w.writerow(["sample", "MAG", "size_Mb", "predicted_genes", "PLA_hit_genes",
                     "PBAT_hit_genes", "any_hit_genes"])

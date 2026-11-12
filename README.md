@@ -10,7 +10,7 @@ Analysis code and derived tables accompanying the Data Descriptor:
 The dataset comprises seven shotgun metagenomes and 177 metagenome-assembled genomes (MAGs) from two South Korean
 agricultural soils with contrasting biodegradable mulch film (BMF) histories, and from an 80-day laboratory
 incubation of one of them with powdered PLA–PBAT BMF. This repository holds the plastizyme screen of the field MAGs
-(Table S5 of the manuscript) and the scripts to reproduce it.
+(Table S2 of the manuscript) and the scripts to reproduce it.
 
 ## Samples
 
@@ -71,7 +71,7 @@ results/
   qc/                               reference QC reports and de-duplicated reference sets
   diamond/                          raw DIAMOND hit tables (PLA, PBAT)
   plastizyme_summary_per_sample.tsv per-sample counts and normalised values
-  TableS5_plastizyme_per_MAG.tsv    per-MAG counts (Table S5)
+  TableS2_plastizyme_per_MAG.tsv    per-MAG counts (Table S2)
   plastizyme_hits_per_gene.tsv      best reference hit for every positive gene
 docs/         methods notes
 ```
